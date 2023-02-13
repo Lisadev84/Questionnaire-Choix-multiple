@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quizz à choix multiplesv2</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1> Quiz CSS débutant</h1>
+    </header>
+    <form>
+        <div class="questions">
+            <div class="question_number">❶</div>
+
+            <div class="answers">
+                <p><strong> Que signifie CSS ?</strong>
+                <ul>
+                    <li>
+                        <input type="radio" id="a1_c1" name="answer1" value="1">
+                        <label for="a1_c1"><span>A</span>Cascading Style Sheets</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a1_c2" name="answer1" value="2">
+                        <label for="a1_c2"><span>B</span>Create Simple Samples</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a1_c3" name="answer1" value="3">
+                        <label for="a1_c3"><span>C</span>C'est super Simple !</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a1_c4" name="answer1" value="4">
+                        <label for="a1_c4"><span>D</span>Choucroute et Saucisses de Strasbourg</label>
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="correct_answer">
+            <p>CSS est l'abréviation de Cascading Style Sheets (Feuilles de Style en Cascade).</p>
+        </div>
+
+        <div class="questions">
+            <div class="question_number">❷</div>
+
+            <div class="answers">
+                <p><strong>A quoi sert le langage CSS ?</strong>
+                <ul>
+                    <li>
+                        <input type="radio" id="a2_c1" name="answer2" value="1">
+                        <label for="a2_c1"><span>A</span>A réaliser des pages dynamiques</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2_c2" name="answer2" value="2">
+                        <label for="a2_c2"><span>B</span>A ajouter du style aux pages web</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2_c3" name="answer2" value="3">
+                        <label for="a2_c3"><span>C</span>A insérer du contenu dans une page internet</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2_c4" name="answer2" value="4">
+                        <label for="a2_c4"><span>D</span>A simuler une application en mode avion durant les trajets
+                            dans un bus</label>
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="correct_answer">
+            <p>Le CSS est un langage simple qui sert à styler (polices, couleurs, positions, dimensions ...) les
+                documents internet.</p>
+        </div>
+
+        <div class="questions">
+            <div class="question_number">❸</div>
+
+            <div class="answers">
+                <p><strong> Pourquoi utilise-t-on généralement du CSS ?</strong>
+                <ul>
+                    <li>
+                        <input type="radio" id="a3_c1" name="answer3" value="1">
+                        <label for="a3_c1"><span>A</span>Pour se compliquer la vie bien sûr</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3_c2" name="answer3" value="2">
+                        <label for="a3_c2"><span>B</span>Pour séparer le contenu et la présentation des documents
+                            web</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3_c3" name="answer3" value="3">
+                        <label for="a3_c3"><span>C</span>Cela permet de faire de plus jolis dégradés de couleurs</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3_c4" name="answer3" value="4">
+                        <label for="a3_c4"><span>D</span>Parce que c'est plus simple à comprendre que Javascript</label>
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="correct_answer">
+            <p>Le CSS est généralement utilisé pour séparer le contenu (HTML, XHTML, XML) de sa mise en forme. Cela
+                permet une maintenance simplifiée selon qu'il faille en modifier son aspect ou son contenu.</p>
+        </div>
+
+        <div class="questions">
+            <div class="question_number">❹</div>
+
+            <div class="answers">
+                <p><strong> Où est-il conseillé de placer le code CSS ?</strong>
+                <ul>
+                    <li>
+                        <input type="radio" id="a4_c1" name="answer4" value="1">
+                        <label for="a4_c1"><span>A</span>Dans le &lt;body&gt;, quelle question !</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a4_c2" name="answer4" value="2">
+                        <label for="a4_c2"><span>B</span>Entre les balises &lt;head&gt;, cest bien plus propre</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a4_c3" name="answer4" value="3">
+                        <label for="a4_c3"><span>C</span>Dans un fichier externe utilisable pour plusieurs pages</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a4_c4" name="answer4" value="4">
+                        <label for="a4_c4"><span>D</span>Dans un fichier Javascript</label>
+                    </li>
+                </ul>   
+                </p>
+            </div>
+        </div>
+        <div class="correct_answer">
+            <p>Bien que les 4 possibilités évoquées soient possibles, il est vivement déconseillé de placer le code CSS à
+                l'intérieur du HTML dans le body. L'utilisation d'un fichier externe est recommandé.</p>
+</div>
+
+<div class="questions">
+    <div class="question_number">❺</div>
+
+    <div class="answers">
+        <p><strong>Dans quoi définit-on les déclarations CSS ?</strong>
+        <ul>
+            <li>
+                <input type="radio" id="a5_c1" name="answer5" value="1">
+                <label for="a5_c1"><span>A</span>Entre deux crochets séparés par des tirets [...-...]</label>
+            </li>
+            <li>
+                <input type="radio" id="a5_c2" name="answer5" value="2">
+                <label for="a5_c2"><span>B</span>Entre deux guillemets séparées par des slashs " ... / ... " </label>
+            </li>
+            <li>
+                <input type="radio" id="a5_c3" name="answer5" value="3">
+                <label for="a5_c3"><span>C</span>Entre deux accolades séparés par des points-virgules { ... ; ... }
+                </label>
+            </li>
+            <li>
+                <input type="radio" id="a5_c4" name="answer5" value="4">
+                <label for="a5_c4"><span>D</span>Dans un fichier texte de type ".doc" ou "docx" </label>
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+<div class="correct_answer">
+    <p>Un bloc de déclarations CSS est délimitée par des accolades. En son sein, chaque déclaration (couple "propriété :
+        valeur") est ponctuée par un point-virgule.</p>
+</div>
+
+<div class="questions">
+    <div class="question_number">❻</div>
+
+    <div class="answers">
+        <p><strong> Dans la règle suivante, quel élément deviendra rouge ? strong#intro {background-color:
+                red;}</strong>
+        <ul>
+            <li>
+                <input type="radio" id="a6_c1" name="answer6" value="1">
+                <label for="a6_c1"><span>A</span>L'élément dont l'id est "intro" et qui est contenu dans un élément
+                    &lt;strong&gt; </label>
+            </li>
+            <li>
+                <input type="radio" id="a6_c2" name="answer6" value="2">
+                <label for="a6_c2"><span>B</span>L'élément &lt;strong&gt; dont l'id est "intro"</label>
+            </li>
+            <li>
+                <input type="radio" id="a6_c3" name="answer6" value="3">
+                <label for="a6_c3"><span>C</span>Tous les éléments &lt;strong&gt; contenus dans un élément dont l'id est
+                    "intro" </label>
+            </li>
+            <li>
+                <input type="radio" id="a6_c4" name="answer6" value="4">
+                <label for="a6_c4"><span>D</span>Tous les éléments &lt;strong&gt; et les éléments dont l'id est
+                    "intro"</label>
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+<div class="correct_answer">
+    <p>LPuisqu'il n'y a pas d'espace entre "strong" et "#intro", cela signifie qu'il s'agit du même élément. Il n'y a
+        pas de notion de contenant et de contenu ici. La règle s'applique à un seul élément : l'élément &lt;strong&gt;
+        dont l'id est "intro".</p>
+</div>
+
+<div class="questions">
+    <div class="question_number">❼</div>
+
+    <div class="answers">
+        <p><strong> Quel élément sépare la propriété de sa valeur ?</strong>
+        <ul>
+            <li>
+                <input type="radio" id="a7_c1" name="answer7" value="1">
+                <label for="a7_c1"><span>A</span>Le signe espace ( ) </label>
+            </li>
+            <li>
+                <input type="radio" id="a7_c2" name="answer7" value="2">
+                <label for="a7_c2"><span>B</span>Le signe égal (=) </label>
+            </li>
+            <li>
+                <input type="radio" id="a7_c3" name="answer7" value="3">
+                <label for="a7_c3"><span>C</span>Le signe deux points (:) </label>
+            </li>
+            <li>
+                <input type="radio" id="a7_c4" name="answer7" value="4">
+                <label for="a7_c4"><span>D</span>Le signe point-virgule (;) </label>
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+<div class="correct_answer">
+    <p>La propriété font-size est séparée de sa valeur (exprimée ici en unité variable -em) par deux points : font-size
+        : 1em;</p>
+</div>
+
+<div class="questions">
+    <div class="question_number">❽</div>
+
+    <div class="answers">
+        <p><strong> Pourquoi est-il d'usage de sauter une ligne entre chaque déclaration ?</strong>
+        <ul>
+            <li>
+                <input type="radio" id="a8_c1" name="answer8" value="1">
+                <label for="a8_c1"><span>A</span>Pour rien du tout </label>
+            </li>
+            <li>
+                <input type="radio" id="a8_c2" name="answer8" value="2">
+                <label for="a8_c2"><span>B</span>Pour que le code soit bien interprété par les navigateurs </label>
+            </li>
+            <li>
+                <input type="radio" id="a8_c3" name="answer8" value="3">
+                <label for="a8_c3"><span>C</span>Pour rendre le code plus lisible et la maintenance plus facile </label>
+            </li>
+            <li>
+                <input type="radio" id="a8_c4" name="answer8" value="4">
+                <label for="a8_c4"><span>D</span>Pour faciliter les échanges de styles entre deux fichiers (je raconte
+                    n'importe quoi là)</label>
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+<div class="correct_answer">
+    <p>Il n'est pas nécessaire de sauter des ligne ou d'indenter votre code. Mais il sera plus facile à lire, à corriger
+        et à débugger</p>
+</div>
+
+<div class="questions">
+    <div class="question_number">❾</div>
+
+    <div class="answers">
+        <p><strong>À quoi sert le sélecteur de classe : h2.nomDeClasse ?</strong>
+        <ul>
+            <li>
+                <input type="radio" id="a9_c1" name="answer9" value="1">
+                <label for="a9_c1"><span>A</span>Ah bon ... C'est censé servir à quelque chose ?</label>
+            </li>
+            <li>
+                <input type="radio" id="a9_c2" name="answer9" value="2">
+                <label for="a9_c2"><span>B</span>À créer une ancre sur la balise <h2> </label>
+            </li>
+            <li>
+                <input type="radio" id="a9_c3" name="answer9" value="3">
+                <label for="a9_c3"><span>C</span>À définir différentes propriétés pour l'élément &lt;h2&gt; dont la
+                    classe est "nomDeClasse"</label>
+            </li>
+            <li>
+                <input type="radio" id="a9_c4" name="answer9" value="4">
+                <label for="a9_c4"><span>D</span>À ajouter un peu de classe à notre code parfois un peu
+                    tristounet</label>
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+<div class="correct_answer">
+    <p>Le sélecteur de classe different permet de modifier l'apparence des titres de niveau 2 dont la classe est
+        "different" et uniquement ceux possédant cette classe.</p>
+</div>
+
+<div class="questions">
+    <div class="question_number">❿</div>
+
+    <div class="answers">
+        <p><strong> Combien de règles peut contenir un fichier CSS ?</strong>
+        <ul>
+            <li>
+                <input type="radio" id="a10_c1" name="answer10" value="1">
+                <label for="a10_c1"><span>A</span>Il n'y a pas de limite, on peut en créer autant que l'on veut </label>
+            </li>
+            <li>
+                <input type="radio" id="a10_c2" name="answer10" value="2">
+                <label for="a10_c2"><span>B</span>Si le poids du fichier n'excède pas 20Ko, c'est tout bon </label>
+            </li>
+            <li>
+                <input type="radio" id="a10_c3" name="answer10" value="3">
+                <label for="a10_c3"><span>C</span>150 à plus ou moins 10% </label>
+            </li>
+            <li>
+                <input type="radio" id="a10_c4" name="answer10" value="4">
+                <label for="a10_c4"><span>D</span>Cela dépend des navigateurs</label>
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+<div class="correct_answer">
+    <p>Un fichier CSS n'est limité ni par son poids, ni par le nombre de ses règles. Vous pouvez donc coder de gros
+        fichiers.
+        Mais pensez quand même à les optimiser, ce n'est pas la peine non plus de tenter le Guiness Book du plus long
+        fichier CSS ! </p>
+</div>
+</form>
+
+<div>
+    <button disabled>Valider les réponses</button>
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
