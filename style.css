@@ -185,5 +185,5 @@ button {
 }
 
 .correct_answer {
-    display: none;
+    visibility: hidden;
 }
